@@ -24,7 +24,7 @@ namespace FizzBuzz
 
         public void Play()
         {
-            for (int i = _lowerBound; i < _upperBound; i++)
+            for (int i = _lowerBound; i <= _upperBound; i++)
             {
                 if (i % 15 == 0)     Console.WriteLine("FizzBuzz");
                 else if (i % 5 == 0) Console.WriteLine("Buzz");
