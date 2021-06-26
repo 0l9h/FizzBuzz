@@ -17,7 +17,7 @@ namespace FizzBuzz
 
         public FizzBuzz(int v1, int v2)
         {
-            if (v1 >= v2 || v1 <= 0) throw new ArgumentOutOfRangeException();
+            if (v1 >= v2 || v1 <= 0) throw new FizzBuzzOutOfRangeException();
             _lowerBound = v1;
             _upperBound = v2;
         }
